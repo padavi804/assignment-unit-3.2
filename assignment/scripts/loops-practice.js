@@ -37,7 +37,7 @@ for (let i = 3; i < 6; i++) {
 // i is set to 2, i will loop until the number is less than or equal to 10, and the loop will increase by 2
 
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-for (let i = 0; i <= 10; i += 2) {
+for (let i = 2; i <= 10; i += 2) {
   console.log(i);
 }
 
@@ -66,7 +66,7 @@ console.log('Some stars using while:');
 
 let a = 0
 while (a <= 4) {
-  console.log('While stars:', stars[a], a++);
+  console.log('While stars:', stars[a]);a++;
 }
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
